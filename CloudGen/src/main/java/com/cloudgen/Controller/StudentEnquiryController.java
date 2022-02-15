@@ -9,7 +9,18 @@ public class StudentEnquiryController {
 	
 	@RequestMapping("/hello")
 	public String sef() {
-		return "student_enquiry_form.html";
+		System.out.println("hello");
+		return "student_enquiry_form";
+		
 	}
+	
+	
+	@RequestMapping("/hi")
+	public String fes() {
+		System.out.println("hello");
+		return "home";
+		
+	}
+
 
 }
